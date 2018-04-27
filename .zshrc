@@ -123,4 +123,4 @@ RPS1='$(vi_mode_prompt_info)'
 RPS2=$RPS1
 
 bindkey "^?" backward-delete-char
-alias config='/usr/bin/git --git-dir=/Users/ruiqi.wang/.myconf/ --work-tree=/Users/ruiqi.wang'
+alias config="/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME"
