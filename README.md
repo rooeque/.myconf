@@ -5,7 +5,7 @@ dotfiles
 Pull/Clone this repo into your `$HOME` directory
 
 ##### iTerm
-In `Preferences -> General` you will notice at the bottom of the panel, there is a setting Load preferences from a custom folder. Choose your `$HOME` directory
+In `Preferences -> General`, there is a setting near the bottom called something like: "Load preferences from a custom folder". Choose your `$HOME` directory
 
 You're done!
 
