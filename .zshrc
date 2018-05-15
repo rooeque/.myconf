@@ -97,12 +97,42 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+
+### Aliases
+
+# fetch a github PR into a branch, assumes the remote is `upstream'
+alias gfpr="function _gfpr () { 
+	if [[ -z \"$1\" ]]; then 
+    echo \"usage: $ gfpr <PR Number>\"; 
+	else
+		git fetch upstream pull/$1/head:pr-$1; 
+	fi
+}; _gfpr"
+
+# fetch a PR and checkout its branch
+alias gcpr="function _gcpr () { 
+	if [[ -z \"$1\" ]]; then 
+		echo \"usage: $ gcpr <PR Number>\"; 
+	else 
+		git fpr $1; 
+		git checkout pr-$1; 
+	fi
+}; _gcpr"
+
 alias vi=/usr/local/bin/vim
 alias ll="ls -la"
 alias gbv="git branch -v"
 alias gfp="git push --force"
+alias config="/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME"
 
+### Binds
+
+# Use Vim commands on zsh CL
 bindkey -v
+bindkey "^?" backward-delete-char
+
+### Exports
 
 export KEYTIMEOUT=1
 
@@ -122,5 +152,3 @@ function vi_mode_prompt_info() {
 RPS1='$(vi_mode_prompt_info)'
 RPS2=$RPS1
 
-bindkey "^?" backward-delete-char
-alias config="/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME"

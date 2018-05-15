@@ -44799,13 +44799,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 365 620 392 0 0 1440 878 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>309 185 606 469 0 0 1080 1898 </string>
+	<string>562 220 618 519 0 0 1440 878 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-975 1269 796 473 -1080 0 1080 1898 </string>
+	<string>238 422 796 473 0 0 1440 900 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>57 1314 592 584 0 0 1080 1898 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 650 450 0 0 1080 1920 </string>
+	<string>0 4 650 450 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 4 1440 874 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -45442,7 +45442,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>8</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/ruiqi.wang</string>
 		</dict>
@@ -46114,7 +46114,7 @@
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -46175,7 +46175,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-27T05:00:35Z</date>
+	<date>2018-05-14T17:04:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>Secure Input</key>
@@ -46193,7 +46193,7 @@
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1497286784</real>
 	<key>UseLionStyleFullscreen</key>
-	<true/>
+	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
