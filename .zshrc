@@ -102,23 +102,23 @@ source $ZSH/oh-my-zsh.sh
 ### Aliases
 
 # fetch a github PR into a branch, assumes the remote is `upstream'
-alias gfpr="function _gfpr () { 
+alias gfpr='function _gfpr () { 
 	if [[ -z \"$1\" ]]; then 
     echo \"usage: $ gfpr <PR Number>\"; 
 	else
 		git fetch upstream pull/$1/head:pr-$1; 
 	fi
-}; _gfpr"
+}; _gfpr'
 
 # fetch a PR and checkout its branch
-alias gcpr="function _gcpr () { 
+alias gcpr='function _gcpr () { 
 	if [[ -z \"$1\" ]]; then 
 		echo \"usage: $ gcpr <PR Number>\"; 
 	else 
-		git fpr $1; 
+		gfpr $1; 
 		git checkout pr-$1; 
 	fi
-}; _gcpr"
+}; _gcpr'
 
 alias vi=/usr/local/bin/vim
 alias ll="ls -la"
