@@ -5,10 +5,7 @@ dotfiles
 Pull/Clone this repo into your `$HOME` directory
 
 ##### iTerm
-In `Preferences -> General`, there is a setting near the bottom called something like: "Load preferences from a custom folder". Choose your `$HOME` directory
-
-You're done!
-
+In `Preferences -> General`, select: "Load preferences from a custom folder". Choose your `$HOME` directory
 
 ### Customization
 
@@ -20,7 +17,7 @@ This repo comes with the alias
 Whenever you change any configuration file/directory **NOT** in a submodule, simply run
 `config add [YOUR FILE/DIRECTORY HERE]`, and from then on commit and push as usual
 
-If you change a configuration file/directory in a submodule, you'll need to track a fork of it to intake those changes. After you've finished changing the submodule, simply `cd` into the submodule directory and `git add commit push` as usual
+If you change a configuration file/directory in a submodule, you'll need to track a fork of it to intake those changes. After you've finished changing the submodule, simply `cd` into the submodule directory and `git push` as usual
 
 To update all submodules from your $HOME directory, run
 
@@ -28,5 +25,3 @@ To update all submodules from your $HOME directory, run
 
 You can then go ahead and run `config add [SUBMODULE HERE]` and commit and push as usual
 
-### Screenshot
-![Alt text](https://image.frl/i/n43n5z7wfxp9qpan.png)
