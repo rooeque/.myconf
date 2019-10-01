@@ -70,8 +70,6 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -155,4 +153,7 @@ function vi_mode_prompt_info() {
 # define right prompt, regardless of whether the theme defined it
 RPS1='$(vi_mode_prompt_info)'
 RPS2=$RPS1
+
+# must be at end of file
+source $ZSH/oh-my-zsh.sh
 
