@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH=$HOME/.docker:$PATH
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -135,6 +138,7 @@ bindkey "^?" backward-delete-char
 ### Exports
 
 export KEYTIMEOUT=1
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xmx2G"
 
 # Updates editor information when the keymap changes.
 function zle-keymap-select() {
